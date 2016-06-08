@@ -1,0 +1,17 @@
+com/appium/page/objects/LogoutPageObjects.class
+com/appium/page/objects/WelcomePageObjects.class
+com/appium/page/objects/LoginPageObjects.class
+com/appium/screen/flows/iOSFlow.class
+com/appium/config/DeviceInterface.class
+com/appium/tests/LoginTest.class
+com/appium/config/Utils.class
+com/appium/config/CommonAppiumTest.class
+com/appium/tests/Runner.class
+com/appium/pages/LogoutPage.class
+com/appium/pages/LoginPage.class
+com/appium/config/UserCredentials.class
+com/appium/screen/flows/AndroidFlow.class
+com/appium/tests/LogoutTest.class
+com/appium/config/ViewFactory.class
+com/appium/config/UserBaseTest.class
+com/appium/pages/WelcomePage.class

@@ -1,0 +1,75 @@
+2016-06-08 10:25:13:505 - info: [Appium] Welcome to Appium v1.5.2 (REV 0333865e5d831faa6fd6a414fe19e486898aceba)
+2016-06-08 10:25:13:509 - info: [Appium] Non-default server args:
+2016-06-08 10:25:13:511 - info: [Appium]   port: 60686
+2016-06-08 10:25:13:511 - info: [Appium]   bootstrapPort: 60690
+2016-06-08 10:25:13:511 - info: [Appium]   sessionOverride: true
+2016-06-08 10:25:13:512 - info: [Appium]   log: '/Users/jiotestdevice/Documents/workspace/Automation/target/appiumlogs/192_168_56_102_5555__LoginTest.txt'
+2016-06-08 10:25:13:512 - info: [Appium]   loglevel: 'info'
+2016-06-08 10:25:13:512 - info: [Appium]   selendroidPort: 60692
+2016-06-08 10:25:13:513 - info: [Appium]   chromeDriverPort: 60688
+2016-06-08 10:25:13:513 - info: [Appium]   suppressAdbKillServer: true
+2016-06-08 10:25:13:513 - info: [Appium]   udid: '192.168.56.102:5555'
+2016-06-08 10:25:13:514 - warn: [Appium] Deprecated server args:
+2016-06-08 10:25:13:514 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"192.168.56.102:5555"}'
+2016-06-08 10:25:13:515 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2016-06-08 10:25:13:517 - info: [Appium]   udid: '192.168.56.102:5555'
+2016-06-08 10:25:13:593 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:60686
+2016-06-08 10:25:13:833 - info: [HTTP] --> GET /wd/hub/status {}
+2016-06-08 10:25:13:835 - info: [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+2016-06-08 10:25:13:847 - info: [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.5.2","revision":"0333865e5d831faa6fd6a414fe19e486898aceba"}}
+2016-06-08 10:25:13:854 - info: [HTTP] <-- GET /wd/hub/status 200 18 ms - 121 
+2016-06-08 10:25:18:274 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/jiotestdevice/Documents/workspace/Automation/build/tejAndroid_14.16_QA_124_PROD_IDAM_ON-tej-debug.apk","appPackage":"com.rjil.cloud.tej","appActivity":null,"platformVersion":"5.X","browserName":"","platformName":"Android","deviceName":"Android"}}
+2016-06-08 10:25:18:276 - info: [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/jiotestdevice/Documents/workspace/Automation/build/tejAndroid_14.16_QA_124_PROD_IDAM_ON-tej-debug.apk","appPackage":"com.rjil.cloud...
+2016-06-08 10:25:18:280 - info: [Appium] Creating new AndroidDriver session
+2016-06-08 10:25:18:280 - info: [Appium] Capabilities:
+2016-06-08 10:25:18:281 - info: [Appium]   app: '/Users/jiotestdevice/Documents/workspace/Automation/build/tejAndroid_14.16_QA_124_PROD_IDAM_ON-tej-debug.apk'
+2016-06-08 10:25:18:281 - info: [Appium]   appPackage: 'com.rjil.cloud.tej'
+2016-06-08 10:25:18:282 - info: [Appium]   appActivity: null
+2016-06-08 10:25:18:282 - info: [Appium]   platformVersion: '5.X'
+2016-06-08 10:25:18:282 - info: [Appium]   browserName: ''
+2016-06-08 10:25:18:283 - info: [Appium]   platformName: 'Android'
+2016-06-08 10:25:18:283 - info: [Appium]   deviceName: 'Android'
+2016-06-08 10:25:18:283 - info: [Appium]   udid: '192.168.56.102:5555'
+2016-06-08 10:25:18:291 - info: [BaseDriver] Session created with session id: 388ee8fb-d077-40dd-8d62-5caef89d73e2
+2016-06-08 10:25:18:382 - info: [AndroidDriver] Java version is: 1.8.0_31
+2016-06-08 10:25:18:387 - info: [ADB] Checking whether adb is present
+2016-06-08 10:25:18:393 - info: [ADB] Using adb from /Users/jiotestdevice/Library/Android/sdk/platform-tools/adb
+2016-06-08 10:25:18:394 - info: [AndroidDriver] Retrieving device list
+2016-06-08 10:25:18:409 - info: [AndroidDriver] Using device: 192.168.56.102:5555
+2016-06-08 10:25:18:412 - info: [ADB] Checking whether adb is present
+2016-06-08 10:25:18:419 - info: [ADB] Using adb from /Users/jiotestdevice/Library/Android/sdk/platform-tools/adb
+2016-06-08 10:25:18:421 - info: [BaseDriver] Using local app '/Users/jiotestdevice/Documents/workspace/Automation/build/tejAndroid_14.16_QA_124_PROD_IDAM_ON-tej-debug.apk'
+2016-06-08 10:25:18:423 - info: [AndroidDriver] Starting Android session
+2016-06-08 10:25:19:230 - info: [ADB] Getting device platform version
+2016-06-08 10:25:19:293 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2016-06-08 10:25:19:296 - info: [ADB] Checking whether aapt is present
+2016-06-08 10:25:19:301 - info: [ADB] Using aapt from /Users/jiotestdevice/Library/Android/sdk/build-tools/23.0.2/aapt
+2016-06-08 10:25:19:301 - info: [ADB] Extracting package and launch activity from manifest
+2016-06-08 10:25:19:429 - info: [AndroidDriver] Remote apk path is /data/local/tmp/2a7cca1dc5712d2e612f63c087fef1b3.apk
+2016-06-08 10:25:19:809 - info: [AndroidDriver] Apk is already on remote and installed, resetting
+2016-06-08 10:25:22:864 - info: [ADB] No uiautomator process found to kill, continuing...
+2016-06-08 10:25:22:996 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2016-06-08 10:25:23:023 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2016-06-08 10:25:23:026 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2016-06-08 10:25:23:027 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2016-06-08 10:25:23:888 - info: [Appium] New AndroidDriver session created successfully, session 388ee8fb-d077-40dd-8d62-5caef89d73e2 added to master session list
+2016-06-08 10:25:23:889 - info: [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":tr...
+2016-06-08 10:25:23:893 - info: [HTTP] <-- POST /wd/hub/session 200 5617 ms - 869 
+2016-06-08 10:25:23:902 - info: [HTTP] --> POST /wd/hub/session/388ee8fb-d077-40dd-8d62-5caef89d73e2/log {"type":"logcat"}
+2016-06-08 10:25:23:905 - info: [MJSONWP] Calling AppiumDriver.getLog() with args: ["logcat","388ee8fb-d077-40dd-8d62-5caef89d73e2"]
+2016-06-08 10:25:23:935 - info: [MJSONWP] Responding to client with driver.getLog() result: [{"timestamp":1465381518491,"level":"ALL","message":"--------- beginning of /dev/log/system"},{"timestamp":1465381518491,"level":"ALL","message":"0...
+2016-06-08 10:25:23:982 - info: [HTTP] <-- POST /wd/hub/session/388ee8fb-d077-40dd-8d62-5caef89d73e2/log 200 77 ms - 577654 
+2016-06-08 10:25:24:237 - info: [HTTP] --> GET /wd/hub/session/388ee8fb-d077-40dd-8d62-5caef89d73e2/screenshot {}
+2016-06-08 10:25:24:238 - info: [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["388ee8fb-d077-40dd-8d62-5caef89d73e2"]
+2016-06-08 10:25:25:266 - info: [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFUeJzs3WmQVeWd+PFfI/uiINqAICIuEWURVMAeUKyoQSUmrklQXFEqqKWZlJEoZiKjFhgzGR...
+2016-06-08 10:25:25:268 - info: [HTTP] <-- GET /wd/hub/session/388ee8fb-d077-40dd-8d62-5caef89d73e2/screenshot 200 1031 ms - 25674 
+2016-06-08 10:25:28:639 - info: [HTTP] --> DELETE /wd/hub/session/388ee8fb-d077-40dd-8d62-5caef89d73e2 {}
+2016-06-08 10:25:28:640 - info: [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["388ee8fb-d077-40dd-8d62-5caef89d73e2"]
+2016-06-08 10:25:29:385 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2016-06-08 10:25:29:386 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2016-06-08 10:25:29:386 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":"OK, shutting down","status":0}
+2016-06-08 10:25:29:387 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2016-06-08 10:25:29:472 - info: [ADB] No uiautomator process found to kill, continuing...
+2016-06-08 10:25:29:474 - info: [Appium] Removing session 388ee8fb-d077-40dd-8d62-5caef89d73e2 from our master session list
+2016-06-08 10:25:29:475 - info: [MJSONWP] Responding to client with driver.deleteSession() result: null
+2016-06-08 10:25:29:478 - info: [HTTP] <-- DELETE /wd/hub/session/388ee8fb-d077-40dd-8d62-5caef89d73e2 200 837 ms - 76 

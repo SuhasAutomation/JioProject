@@ -1,0 +1,43 @@
+package com.appium.tests;
+
+import com.annotation.values.RetryCount;
+import com.appium.config.UserBaseTest;
+import com.appium.config.UserCredentials;
+import com.appium.pages.LoginPage;
+import com.appium.utils.Retry;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class LoginTest extends UserBaseTest {
+
+	LoginPage loginPage;
+	UserCredentials credentials;
+	
+
+	@Test
+	public void loginWithValidUser() throws InterruptedException {
+		loginPage = new LoginPage(driver);
+		credentials = new UserCredentials("Suhass-2", "london@2014");
+		String userNameLoggedIn = loginPage.enterValidCredentails(credentials.getUserName(), credentials.getPassWord())
+				.waitForWelcomePage().verifyUserIsLoggedIn();
+		Assert.assertEquals(userNameLoggedIn, "Auto backup");
+	}
+	
+	
+	
+	/*@Test(retryAnalyzer=Retry.class)
+	@RetryCount(maxRetryCount=2)
+	public void loginWithInValidUser() throws InterruptedException {
+		loginPage = new LoginPage(driver);
+		credentials = new UserCredentials("vodqa123@gmail.com", "Hello12342225678");
+		loginPage.enterValidCredentails(credentials.getUserName(), credentials.getPassWord());
+		String userNameLoggedIn = loginPage.validateErrorMessage();
+		Assert.assertEquals(userNameLoggedIn, "The username or password you entered is incorrect");
+	}
+
+	@Test
+	public void logOutTest() throws InterruptedException {
+		loginPage = new LoginPage(driver);
+	}*/
+
+}
